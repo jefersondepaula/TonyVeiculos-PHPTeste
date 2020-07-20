@@ -1,0 +1,31 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.list-box{
+    max-width: 48%;
+}
+.detail-box{
+    max-width: 48%;
+}
+.col-6 {
+    max-width: 48%;
+    margin: 10px;
+}
+
+@media only screen and (max-width:767px){
+    .list-box{
+        max-width: 100%;
+    }
+    .detail-box{
+        max-width: 100%;
+        margin-top: 15px;
+    }
+    #editar{
+        margin-top: -100px;
+    }
+}
